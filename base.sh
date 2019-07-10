@@ -52,3 +52,6 @@ az network vnet-gateway create -g $rg_name \
                                --sku VpnGw1 \
                                --vpn-type RouteBased \
                                --no-wait
+
+
+echo -e "************************\n Base Framework Complete! \n************************\n"
