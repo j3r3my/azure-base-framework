@@ -27,7 +27,6 @@ sh -x base.sh
 
 ## TO DO LIST
 - add ability to use a service-principal or managed identity for authentication
-- add custom rules for the NSG(s) for security or routing purposes
 - add VM creation and configuration (e.g. for Domain Controllers)
 - add ability to have VMs live in an availability set
 - add ability to have VMs placed within a pool behind a load-balancer (with & without a pip)
