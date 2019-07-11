@@ -27,7 +27,7 @@ az network vnet create -g $rg_name -l $location -n $dev_vnet
 az network vnet create -g $rg_name -l $location -n $prod_vnet
 az network vnet create -g $rg_name -l $location -n $gateway_vnet
 
-# create a base NSG
+# create a base and custom NSG
 echo -e "************************\n Creating NSG's\n************************\n"
 az network nsg create -g $rg_name -l $location -n $base_nsg_name
 az network nsg create -g $rg_name -l $location -n $custom_nsg_name
